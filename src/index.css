@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans",sans-serif;
+}
+
+@font-face {
+  font-family: "dalek";
+  src: local("Dalek"),
+   url("./TribeVibe/Assets/DalekPinpointBold.ttf") format("truetype");
+  font-weight: bold;
+  }
+  

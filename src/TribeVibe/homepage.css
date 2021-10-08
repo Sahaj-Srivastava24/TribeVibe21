@@ -1,0 +1,272 @@
+/* body{ 
+  
+  background-image:linear-gradient(to bottom right, #240046 5%, #9d4edd,#7B2CBF);
+} */
+.hiddenTimelineImgs{
+  visibility:hidden;
+}
+
+@media only screen and (max-width: 900px) {
+    /* Style adjustments for non responsive websites */
+    body{width:940px;}
+    .node{
+      visibility:hidden;
+    }
+    .hiddenTimelineImgs{
+      display:none;
+    }
+}
+
+.homepage{
+    /* background-image: linear-gradient(to bottom, #7B2CBF ,#5A189A); */
+    height: 100vh;
+    background-color:#7B2CBF;
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+
+
+#getStarted {
+    display: flex;
+    justify-content: center;
+    height: 67vh;
+    width:70vw;
+    /* background-color:rgb(107, 107, 194); */
+}
+
+.card{
+    box-shadow: 0 0px 20px 1px #240046 ;
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.5);
+    color: white;
+    transform-style: preserve-3d;
+    position: absolute;
+    z-index: 1;
+    font-size:250%;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    flex-flow: column;
+    justify-content:space-evenly;
+    border-radius:4% 4%;
+    /* box-shadow: 2px 2px rgba(235, 5, 5, 0.7); */
+    height: 67vh;
+    width:56rem;
+    /* background-color:rgb(248, 207, 180); */
+}
+
+.gs{
+  /* background-color:red; */
+  background-image: linear-gradient(to bottom, #7B2CBF ,#5A189A);
+
+    /* margin: 8% 0 7% 0%; */
+    padding:6% 0;
+    display: flex;
+    justify-content: center;
+}
+
+.img1{
+    border-radius: 4% 4%;
+    left: 0;
+    bottom: -11px;
+    position: absolute;
+    z-index: -5;
+    /* width: 30rem; */
+}
+.img2{
+    border-radius: 4% 4%;
+    left: 0;
+    bottom: -11px;
+    position: absolute;
+    z-index: -4;
+    /* width: 30rem; */
+}
+.img3{
+    border-radius: 4% 4%;
+    left: 0;
+    bottom: -11px;
+    position: absolute;
+    z-index: -3;
+    /* width: auto; */
+}
+.img4{
+    border-radius: 4% 4%;
+    left: 0;
+    bottom: -11px;
+    position: absolute;
+    z-index: -2;
+    /* width: 30rem; */
+}
+.img5{
+    border-radius: 4% 4%;
+    left: 0;
+    bottom: -11px;
+    position: absolute;
+    z-index: -1;
+    /* width: 30rem; */
+}
+
+.nav{
+    /* height: 40px; */
+    padding-top: 20px;
+    padding-left: 40px;
+    color: white;
+}
+
+/* .btnn{
+    color:white;
+    width: 40%;
+    background:rgb(165, 71, 165,0.5);
+    border: none; 
+    margin: 0 auto;
+    text-align: center;
+    /* font-size: 14px; 
+} */
+
+
+
+
+/* body {
+    background: #3da3d5;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: rgb(53, 53, 53);
+  }
+  
+  .title {
+    font-size: 15em;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+  }
+  
+  h3 {
+    padding-top: 0.25em;
+  }
+  
+  .vertical-timeline-element-content {
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+      0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+    padding: 2em 3em !important;
+  }
+  
+  .date {
+    color: rgb(201, 251, 255);
+  }
+  
+  #description {
+    margin: 1.5em 0 2em 0;
+  }
+  
+  .button {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .workButton {
+    background-color: #06d6a0;
+  }
+  
+  .workButton:hover {
+    background-color: #0ac593;
+  }
+  
+  .schoolButton {
+    background-color: #f9c74f;
+  }
+  
+  .schoolButton:hover {
+    background-color: #f3bc3c;
+  }
+  
+  @media only screen and (max-width: 1700px) {
+    .vertical-timeline-element-date {
+      display: block !important;
+      float: none !important;
+      color: rgb(44, 44, 44);
+      margin-top: 1.5em;
+    }
+  } */
+
+
+.line{
+  width:3vh;
+  background-color:burlywood;
+  height:70vh;
+}
+
+.circle{
+  position: absolute;
+  top:50%;
+  left:-106%;
+  height: 10vh;
+  width: 10vh;
+  border-radius:50%;
+  background-color: burlywood;
+}
+
+.path{
+  /* margin-left: 30px; */
+  position: absolute;
+  /* display:flex;
+  /* flex-flow: column; */
+  /* justify-content:center; */ 
+}
+
+.timeline{
+  padding-left: 13%;
+  flex-flow: column;
+  background-image: linear-gradient(to bottom, #3C096C,#240046,#10002B);
+  display:flex;
+  justify-content:center;
+}
+.timelineCard{
+  min-height:20vh;
+  min-width:40vh;
+  background-color:brown;
+  border-radius:4%;
+}
+
+.arrow{
+  top:5vh;
+  position:absolute;
+  left:30vh;
+  min-height: 10vh;
+  width: 10vh;
+  background-color:brown;
+  rotate:45deg;
+}
+
+.events{
+  position:absolute;
+}
+
+.aboutTribe{
+  color:white;
+  font-weight: 200;
+  background-image: linear-gradient(to bottom, #5A189A,#3C096C);
+  line-height:40px;
+  padding: 50px 50px;
+  text-align: center;
+  /* margin: 40px; */
+  font-size:20px;
+}
+
+.imgs{
+  margin:0;
+}
+
+.timelineHeading{
+  font-size:30px;
+  text-align:center;
+  padding-right: 14%;
+  margin-bottom: 3%;
+  margin-top: 5%;
+  /* color:#E0AAFF; */
+  color:#EA698B;
+  font-family: Dalek;
+  letter-spacing: 3px;
+  
+}
