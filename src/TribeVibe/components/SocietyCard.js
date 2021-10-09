@@ -151,10 +151,10 @@ export default function SocietyCard() {
               color="common.white"
               gutterBottom
             >
-              Introducing, Societies in Derabassi..
+              Society Fest - Derabassi
             </Typography>
             <Typography variant="h5" align="center" color="common.white" paragraph>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quasi iste quis explicabo vitae expedita numquam debitis, labore dolorem ipsa minima quae veritatis voluptatem pariatur!
+              We're glad to present you a glance of all the societies in Derabassi campus. Keep your wits together and choose your companions wisely.
             </Typography>
             <Stack
               sx={{ pt: 4 }}
