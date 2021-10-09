@@ -20,7 +20,7 @@ function Soc() {
   let images = socToDis.img;
   let list = images.map((item, index) => {
     console.log(item);
-    return (<div key={index}><img className="images" src={item} alt="Image"/></div>)})
+    return (<div key={index}><img className="images" src={item} alt=""/></div>)})
   // console.log(society[1])
 
   return <div className ="Container"> 
